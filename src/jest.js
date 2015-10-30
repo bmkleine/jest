@@ -8,7 +8,7 @@
 'use strict';
 
 const childProcess = require('child_process');
-const fs = require('fs');
+const fs = require('graceful-fs');
 const path = require('path');
 const TestRunner = require('./TestRunner');
 const formatTestResults = require('./lib/formatTestResults');
